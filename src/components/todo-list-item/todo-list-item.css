@@ -1,0 +1,53 @@
+.todo-list-item {
+  flex: 1 1 auto;
+  word-break: break-all;
+  margin: 0 5px 0 0;
+  cursor: pointer;
+}
+
+.todo-list-item:hover {
+  text-decoration: underline;
+}
+
+.todo-list-item.done {
+  text-decoration: line-through;
+}
+
+.todo-list-item.impotant {
+  color: #008080;
+  font-weight: bold;
+}
+
+.control-btn {
+  flex: 0 0 auto;
+}
+
+.control-btn .common {
+  width: 30px;
+  height: 30px;
+  font-weight: 700;
+  border-radius: 4px;
+  margin: 0 3px;
+  transition: .3s linear;
+  cursor: pointer;
+}
+
+.btn-remove {
+  border: 1px solid #ff6347;
+  color: #ff6347;
+}
+
+.btn-important {
+  border: 1px solid #008080;
+  color: #008080;
+}
+
+.btn-remove:hover {
+  background: #ff6347;
+  color: #fff;
+}
+
+.btn-important:hover {
+  background: #008080;
+  color: #fff;
+}

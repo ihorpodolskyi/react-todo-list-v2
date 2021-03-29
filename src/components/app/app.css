@@ -1,0 +1,30 @@
+.app {
+  width: 400px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.search-panel {
+  display: flex;
+  margin: 0 0 15px 0;
+}
+
+/* @media screen and (max-width: 400px) {
+  .app > :nth-child(1),
+  .app > :nth-child(2) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .app > :nth-child(2) > :first-child {
+    margin: 0 0 10px 0;
+  }
+
+  .app > :nth-child(2) > :last-child button {
+    padding: 10px 15px;
+  }
+} */

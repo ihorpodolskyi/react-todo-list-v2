@@ -1,0 +1,33 @@
+.item-add-form {
+  display: flex;
+}
+
+.item-add-input {
+  flex: 1 1 auto;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 0 5px 0 0;
+  transition: .3s linear;
+}
+
+.item-add-input:focus {
+  border: 1px solid #008080;
+  box-shadow: 0 0 4px #008080;
+}
+
+.item-add-btn {
+  flex: 0 0 auto;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  transition: .3s linear;
+}
+
+.item-add-btn:hover {
+  color: #fff;
+  background: #008080; 
+  box-shadow: rgba(14, 30, 37, 0.122) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.322) 0px 2px 16px 0px;
+}
